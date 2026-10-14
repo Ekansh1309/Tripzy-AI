@@ -3,6 +3,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 
+python test.py
 
 
 Set up this Neon project in the current working directory.
@@ -21,3 +22,9 @@ export default defineConfig({});
 ```
 
 7. `neon deploy`
+
+
+{
+  "message": "Create 5 day travel plan for UK, selecting best hotel and sightseeing. Budget under 3 lac. If possible, choose night flight",
+  "thread_id": "test_user"
+}
